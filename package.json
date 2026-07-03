@@ -1,0 +1,25 @@
+{
+  "name": "rootfacts",
+  "version": "1.0.0",
+  "description": "Aplikasi identifikasi sayuran dengan AI",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'No build needed'"
+  },
+  "keywords": [
+    "tensorflow",
+    "ai",
+    "sayuran",
+    "camera"
+  ],
+  "author": "RootFacts Team",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.10.0",
+    "@xenova/transformers": "^2.12.0"
+  },
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}
